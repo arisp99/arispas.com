@@ -1,7 +1,7 @@
 ---
 title: "Physical Function After Primary Total Knee Arthroplasties (TKAs) Stratified by Pre-operative Patient-Reported Mental Health Score"
 authors: ["Christopher M. Melnic", "arisp99", "Akhil Katakam", "Hany S. Bedair", "Marilyn Heng", "Antonia F. Chen", "Todd M. O'Brien", "Rachel C. Sisodia"]
-date: 2021-08-01
+date: 2021-08-31
 doi: ""
 
 # Schedule page publish date (NOT publication's date).

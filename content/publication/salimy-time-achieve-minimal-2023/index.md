@@ -11,7 +11,7 @@ authors:
 date: 2023-06-02
 
 # Schedule page publish date (NOT publication's date).
-publishDate: 2023-06-04
+publishDate: 2023-06-02
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Journal article; 2 = Preprint;
