@@ -41,7 +41,7 @@ superuser: true
 title: Aris Paschalidis
 ---
 
-I am a third-year medical student at the UMass Chan Medical School. I am
+I am a fourth-year medical student at the UMass Chan Medical School. I am
 interested in combining clinical practice and academic medicine to transform
 medicine, inform local-decision making by physicians, and homogenize care by
 leveraging computational techniques.
