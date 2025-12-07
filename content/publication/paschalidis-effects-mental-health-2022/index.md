@@ -25,7 +25,32 @@ publication: "Presented at: Eastern Orthopedic Association Annual Meeting"
 publication_short: ""
 
 # Abstract and optional shortened version
-abstract: ""
+abstract: "
+**Introduction:** Total hip arthroplasty (THA) has proven to be one of the most
+successful orthopedic surgical procedures. Despite its effectiveness, many
+patients continue to experience pain and discomfort following surgery. Recent
+work has identified that preoperative mental health may negatively influence
+postsurgical outcomes. The aim of this study was to investigate the relationship
+between preoperative patient-reported mental health and postoperative physical
+function following primary THA.\n\n
+**Methods:** We retrospectively reviewed 445 patients who underwent primary THA
+between June 2016 and December 2018 at a single academic center.
+Patient-Reported Outcomes Measurement Information System (PROMIS) Global Health
+and PROMIS Physical Function 10a (PF10a) scores were collected preoperatively
+and postoperatively. Patients were grouped based on their preoperative mental
+health scores. Locally estimated scatterplot smoothing curves (LOESS) were fit
+to the data to examine trends in physical function over time.\n\n
+**Results:** Patients with higher preoperative mental health scores had higher
+preoperative and postoperative physical function scores. Nevertheless, all
+patients experienced similar gains in physical function following surgery.
+Patients with the poorest mental health exhibited higher physical function score
+variability following surgery.\n\n
+**Discussion/Conclusion:** Poor mental health should not be a contraindication
+for performing primary THA. Instead, surgeons should pay close attention to
+patients with the lowest preoperative mental health scores when considering
+their postoperative recovery. These patients may require more collaborative
+care to improve their mental health preoperatively and ensure better 
+patient-reported outcomes following surgery."
 summary: ""
 
 tags: ["total hip arthroplasty", "THA", "mental health", "physical function", "PROM", "PROMIS", "post-operative outcome"]
@@ -38,7 +63,7 @@ featured: false
 url_pdf: ""
 url_code: ""
 url_dataset: ""
-url_poster: ""
+url_poster: "MH_THA_EOA.pdf"
 url_project: ""
 url_slides: ""
 url_source: ""

@@ -25,6 +25,9 @@ summary: ""
 tags: ["neural network", "ECG", "EKG", "biological age"]
 featured: false
 
+# Links
+url_poster: "DNN_ECG_age_UMass.pdf"
+
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 # image:
