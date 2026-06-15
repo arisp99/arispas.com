@@ -5,9 +5,11 @@ const svgCheck =
   '<svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true"><path fill-rule="evenodd" fill="rgb(63, 185, 80)" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg>';
 
 const addCopyButtons = (clipboard) => {
-  // 1. Look for code elements that are children of pre
   document.querySelectorAll("pre > code").forEach((codeBlock) => {
-    // 2. Create a button that will trigger a copy operation
+    if (codeBlock.parentNode.querySelector(".clipboard-button")) {
+      return;
+    }
+
     const button = document.createElement("button");
     button.className = "clipboard-button";
     button.type = "button";
@@ -22,20 +24,27 @@ const addCopyButtons = (clipboard) => {
         (error) => (button.innerHTML = "Error")
       );
     });
-    // 3. Append the button directly before the pre tag
-    const code = codeBlock;
-    code.parentNode.insertBefore(button, code);
+    codeBlock.parentNode.insertBefore(button, codeBlock);
   });
 };
 
-if (navigator && navigator.clipboard) {
-  addCopyButtons(navigator.clipboard);
-} else {
+const initCopyButtons = () => {
+  if (window.navigator && window.navigator.clipboard) {
+    addCopyButtons(window.navigator.clipboard);
+    return;
+  }
+
   const script = document.createElement("script");
   script.src =
     "https://cdnjs.cloudflare.com/ajax/libs/clipboard-polyfill/2.7.0/clipboard-polyfill.promise.js";
   script.integrity = "sha256-waClS2re9NUbXRsryKoof+F9qc1gjjIhc2eT7ZbIv94=";
   script.crossOrigin = "anonymous";
-  script.onload = () => addCopyButtons(clipboard);
+  script.onload = () => addCopyButtons(window.clipboard);
   document.body.appendChild(script);
+};
+
+if (document.readyState === "loading") {
+  document.addEventListener("DOMContentLoaded", initCopyButtons);
+} else {
+  initCopyButtons();
 }
