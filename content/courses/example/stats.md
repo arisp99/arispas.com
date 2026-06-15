@@ -1,5 +1,6 @@
 ---
 date: "2021-01-01"
+draft: true
 math: true
 title: Statistics
 type: book

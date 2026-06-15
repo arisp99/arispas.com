@@ -1,5 +1,6 @@
 ---
 date: "2021-01-01"
+draft: true
 title: Python basics
 type: book
 weight: 20
