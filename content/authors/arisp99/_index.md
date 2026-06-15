@@ -56,4 +56,4 @@ and worked as a bioinformatician in the [Bailey Lab](https://baileylab.org/),
 developing software to study the genetics and genomics of infectious disease and
 immunity.
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "cv-resume/cv.pdf" "newtab" >}}curriculum vitae{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "files/cv.pdf" "newtab" >}}curriculum vitae{{< /staticref >}}.
