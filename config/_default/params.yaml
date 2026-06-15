@@ -5,33 +5,33 @@
 
 # Appearance
 
-theme: 'primary'
+theme: "primary"
 day_night: false
-font: 'custom_fonts'
+font: "custom_fonts"
 font_size: L
 
 # SEO
 
 site_type: Person
-local_business_type: ''
-org_name: ''
-description: ''
-twitter: ''
+local_business_type: ""
+org_name: ""
+description: "Aris Paschalidis is an orthopaedic surgery resident at Temple University Hospital with a background in computational biology, bioinformatics, data science, and artificial intelligence."
+twitter: ""
 
 # Contact (edit or remove options as required)
 
 # email: aris.paschalidis@gmail.com
 # phone: 888 888 88 88
 address:
-  street: '55 N Lake Ave'
-  city: Worcester
-  region: MA
-  postcode: '01655'
+  street: "3401 N. Broad Street"
+  city: Philadelphia
+  region: PA
+  postcode: "19140"
   country: United States
   country_code: US
 coordinates:
-  latitude: '42.278779667016835'
-  longitude: '-71.76325370215565'
+  latitude: "40.0053079"
+  longitude: "-75.1508235"
 # directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
 # office_hours:
 #  - 'Monday 10:00 to 13:00'
@@ -68,8 +68,8 @@ main_menu:
 
 # Localization
 
-date_format: 'January 2, 2006'
-time_format: '15:04'
+date_format: "January 2, 2006"
+time_format: "15:04"
 address_format: en-us
 
 # Site features
@@ -83,8 +83,8 @@ math: true
 diagram: false
 privacy_pack: false
 edit_page:
-  repo_url: ''
-  content_dir: ''
+  repo_url: ""
+  content_dir: ""
   repo_branch: main
   editable:
     page: false
@@ -106,7 +106,7 @@ copyright_license:
   allow_derivatives: false
   share_alike: true
   allow_commercial: false
-  notice: 'This work is licensed under {license}'
+  notice: "This work is licensed under {license}"
 abstract_length: 135
 plugins_js: [clipboard]
 avatar:
@@ -123,7 +123,7 @@ breadcrumb:
   page_types:
     book: true
 comments:
-  provider: ''
+  provider: ""
   commentable:
     post: true
     book: true
@@ -131,27 +131,27 @@ comments:
     publication: true
     event: true
   disqus:
-    shortname: ''
+    shortname: ""
     show_count: true
   commento:
-    url: ''
+    url: ""
 search:
   provider: wowchemy
   algolia:
-    app_id: ''
-    api_key: ''
-    index_name: ''
+    app_id: ""
+    api_key: ""
+    index_name: ""
     show_logo: false
 map:
   provider: mapnik
-  api_key: ''
+  api_key: ""
   zoom: 15
 marketing:
-  google_analytics: ''
-  google_tag_manager: ''
-  google_site_verification: ''
-  baidu_site_verification: ''
-  baidu_tongji: ''
+  google_analytics: ""
+  google_tag_manager: ""
+  google_site_verification: ""
+  baidu_site_verification: ""
+  baidu_tongji: ""
 cms:
   branch: master
   local_backend: false
